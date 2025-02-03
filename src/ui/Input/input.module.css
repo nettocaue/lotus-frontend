@@ -1,0 +1,18 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid rgb(197, 198, 204);
+  border-radius: 12px;
+  outline: none;
+  color: rgba(143, 144, 152, 1);
+}
+
+.inputField::placeholder {
+  color: rgba(143, 144, 152, 1);
+  font-size: 14px;
+}
