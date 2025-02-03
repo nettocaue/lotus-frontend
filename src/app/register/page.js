@@ -31,7 +31,7 @@ export default function Register() {
   };
 
   const handleForm = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     console.log(name, email, password, repeatPassword);
   };
 
@@ -42,7 +42,7 @@ export default function Register() {
           src="/images/lotus.jpeg"
           width={300}
           height={300}
-          alt="Picture of the author"
+          alt="Logo da Lotus"
           className={styles.logoImage}
         />
 
@@ -50,7 +50,7 @@ export default function Register() {
         <h2 className={styles.headerText}>Crie uma conta para começar</h2>
 
         <form>
-        <Input
+          <Input
             type="text"
             placeholder="Nome completo"
             value={name}

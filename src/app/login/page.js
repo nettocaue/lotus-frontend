@@ -21,7 +21,7 @@ export default function Login() {
   };
 
   const handleForm = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     console.log(email, password);
   };
 
@@ -32,7 +32,7 @@ export default function Login() {
           src="/images/lotus.jpeg"
           width={300}
           height={300}
-          alt="Picture of the author"
+          alt="Logo da Lotus"
           className={styles.logoImage}
         />
 
@@ -52,7 +52,9 @@ export default function Login() {
             onChange={handlePasswordChange}
           />
 
-          <Link href="#" className={styles.linkForgotPassword}>Esqueceu sua senha?</Link>
+          <Link href="#" className={styles.linkForgotPassword}>
+            Esqueceu sua senha?
+          </Link>
 
           <Button text="Entrar" onClick={handleForm} />
         </form>
