@@ -1,0 +1,45 @@
+.menu {
+  width: 250px;
+  background-color: rgba(245, 245, 245, 1);
+  color: rgba(32, 34, 36, 1);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 6px;
+
+  width: 100%;
+}
+
+.menuItem:hover {
+  background-color: rgba(92, 156, 84, 0.1);
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(92, 156, 84, 1);
+  color: white;
+}
+
+.active svg {
+  fill: white;
+}
+
+.imageMenuLogo {
+  display: block;
+  margin: 0 auto 50px;
+}
