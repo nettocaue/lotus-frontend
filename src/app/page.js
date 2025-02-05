@@ -1,7 +1,9 @@
 "use client";
 
-import Menu from "@/ui/Menu";
 import { useRouter } from "next/navigation";
+import { CloudRain, Sun, Wind } from "@phosphor-icons/react";
+import Menu from "@/ui/Menu";
+import Card from "@/ui/Card";
 import styles from "./page.module.css";
 
 const Home = () => {
@@ -14,9 +16,15 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Menu onMenuClick={handleMenuClick} />
+
       <div className={styles.content}>
-        <h1>Bem-vindo à Página Inicial</h1>
-        <p>Conteúdo dinâmico baseado no menu clicado</p>
+        <h2 className={styles.title}>Dados do Biodigestor</h2>
+
+        <div className={styles.sectionCards}>
+          <Card title="Umidade" icon={<CloudRain size={42} />} value="70,00%" />
+          <Card title="Temperatura" icon={<Sun size={42} />} value="19.0ºC" />
+          <Card title="Gás Metano" icon={<Wind size={42} />} value="115 ppm" />
+        </div>
       </div>
     </div>
   );
