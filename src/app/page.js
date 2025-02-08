@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { CloudRain, Sun, Wind } from "@phosphor-icons/react";
 import Menu from "@/ui/Menu";
+import Header from "@/ui/Header";
 import Card from "@/ui/Card";
 import Graphic from "@/ui/Graphic";
 import styles from "./page.module.css";
@@ -17,6 +18,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Menu onMenuClick={handleMenuClick} />
+      <Header />
 
       <div className={styles.content}>
         <h2 className={styles.title}>Dados do Biodigestor</h2>
