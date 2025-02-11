@@ -23,12 +23,12 @@ const Menu = ({ onMenuClick }) => {
 
       <div
         className={`${styles.menuItem} ${
-          pathname === "/" ? styles.active : ""
+          pathname === "/dashboard" ? styles.active : ""
         }`}
-        onClick={() => handleMenuClick("/")}
+        onClick={() => handleMenuClick("dashboard")}
       >
         <Speedometer size={24} color="#202224" weight="bold" />
-        Home
+        Dashboard
       </div>
       <div
         className={`${styles.menuItem} ${
