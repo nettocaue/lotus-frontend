@@ -1,8 +1,10 @@
-# Lotus
+# Lotus (DEPRECATED)
 
 ![Logo da Lotus](./public/images/lotus.jpeg)
 
-**Lotus** é um projeto de frontend responsável por coletar e exibir informações enviadas por um **Arduino** conectado a um **biodigestor**. O projeto tem como objetivo facilitar o monitoramento e controle de dados relacionados ao processo de biodigestão, fornecendo uma interface simples e intuitiva para visualizar os parâmetros do sistema.
+O Lotus foi um projeto de frontend desenvolvido para coletar e exibir informações enviadas por um Arduino conectado a um biodigestor. O principal objetivo do projeto era facilitar o monitoramento e controle de dados relacionados ao processo de biodigestão, oferecendo uma interface simples e intuitiva para visualizar os parâmetros do sistema.
+
+No entanto, devido à evolução das tecnologias, o Projeto Lotus foi depreciado. A partir de 27/02/2025, o projeto não receberá mais atualizações ou correções de bugs.
 
 ## Funcionalidades
 
